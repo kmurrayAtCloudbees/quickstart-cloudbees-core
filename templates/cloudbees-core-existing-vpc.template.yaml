@@ -874,6 +874,7 @@ Resources:
         QSS3BucketName: !Ref QSS3BucketName
         QSS3KeyPrefix: !Sub "${QSS3KeyPrefix}submodules/quickstart-amazon-eks/"
         LambdaZipsBucketName: !Ref LambdaZipsBucketName
+        ManagedNodeGroup: "yes"
   AdditionalAgentNodesStack:
     Type: "AWS::CloudFormation::Stack"
     Properties:

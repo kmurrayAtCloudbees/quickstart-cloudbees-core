@@ -584,6 +584,7 @@ Resources:
         KubernetesVersion: !Ref KubernetesVersion
         BootstrapArguments: "--kubelet-extra-args '--node-labels=partition=regular-agents --register-with-taints=partition=regular-agents:NoSchedule'"
         EKSClusterName: !Ref EKSClusterName
+        ManagedNodeGroup: "yes"
   SpotAgentNodesStack:
     Type: "AWS::CloudFormation::Stack"
     Properties:
