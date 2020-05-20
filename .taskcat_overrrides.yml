@@ -1,0 +1,10 @@
+KeyPairName: 'qs-cloudbeescore-kenm'
+RemoteAccessCIDR: '0.0.0.0/0'
+# cost reduction
+NumberOfMasterNodes: '2'
+MasterNodeInstanceType: 't3.large'
+NumberOfRegularNodes: '1'
+RegularNodeInstanceType: 't3.small'
+NumberOfSpotNodes: '1'
+AgentNodeVolumeSize: 20
+StorageClassName: 'gp2'
