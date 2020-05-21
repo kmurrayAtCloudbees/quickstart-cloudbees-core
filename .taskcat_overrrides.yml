@@ -1,4 +1,4 @@
-KeyPairName: 'qs-cloudbeescore-kenm'
+KeyPairName: qs-cloudbeescore-kenm
 RemoteAccessCIDR: '0.0.0.0/0'
 # cost reduction
 NumberOfMasterNodes: '2'
